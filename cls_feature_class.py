@@ -7,7 +7,7 @@ import numpy as np
 import scipy.io.wavfile as wav
 import utils
 from sklearn import preprocessing
-from sklearn.externals import joblib
+import joblib # importing directly, got error on from skelearn.externals import joblib
 from IPython import embed
 import matplotlib.pyplot as plot
 plot.switch_backend('agg')
